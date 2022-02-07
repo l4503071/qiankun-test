@@ -11,7 +11,7 @@ export default function App() {
     navigate(e.key);
   }
   return (
-    <div>
+    <div className="container" >
       <Menu selectedKeys={[menu]} onClick={handleClick} mode="horizontal">
         <Menu.Item key="menu1">menu1</Menu.Item>
         <Menu.Item key="menu2">menu2</Menu.Item>

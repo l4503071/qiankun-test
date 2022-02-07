@@ -13,7 +13,11 @@ registerMicroApps([
   },
 ]);
 
-start();
+start({
+  sandbox: {
+    experimentalStyleIsolation: true,
+  },
+});
 
 ReactDOM.render(
   <BrowserRouter>
