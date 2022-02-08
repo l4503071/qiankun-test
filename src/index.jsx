@@ -18,6 +18,7 @@ export default function App() {
         <Menu.Item key="menu3">menu3</Menu.Item>
       </Menu>
       <div id="menu1"></div>
+      <div id="menu2"></div>
     </div>
   );
 }

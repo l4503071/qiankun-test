@@ -11,12 +11,16 @@ registerMicroApps([
     container: "#menu1",
     activeRule: "/menu1",
   },
+  {
+    name: "menu2",
+    entry: "//localhost:3001",
+    container: "#menu2",
+    activeRule: "/menu2",
+  },
 ]);
 
 start({
-  sandbox: {
-    experimentalStyleIsolation: true,
-  },
+  sandbox: true,
 });
 
 ReactDOM.render(
